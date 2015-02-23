@@ -7,6 +7,7 @@
 }
 body{
 	font-family: sans-serif;
+	background: url(img/bg.jpg);
 }
 
 ul{
@@ -25,9 +26,9 @@ h1, h2, h3, p{
 
 .l-center{
 	width:940px;
-	background: #E0E0E0;
+	/*background: #E0E0E0;*/
 	margin:0 auto;
-	border: 3px solid #FD9B9B;
+	/*border: 3px solid #FD9B9B;*/
 	height: 100%;
 }
 /**/
@@ -36,14 +37,49 @@ h1, h2, h3, p{
 	display: table;
 	clear: both;
 }
+
+/*************************/
+.nav{
+	padding: 30px 0;
+}
+
+.nav__menu{
+	text-align: center;
+	font-size:1.6em;
+}
+.nav__menu li{
+	display: inline-block;
+}
+.nav__menu a{
+	text-decoration: none;
+	display: block;
+	padding: 5px 10px 3px;
+	text-transform: uppercase;
+	color:#4A4A4A;
+}
+.nav__menu a:hover{
+	box-shadow: 0 4px 0px 0px #4A4A4A;
+	-webkit-transit#ACEEC4ion: all .5s;
+	-o-transition: all.5s;
+	transition:all .5s;
+}
 /*************************/
 
 .l{
-	background: #E9E8E2;
+	/*background: #E9E8E2;*/
 }
 .footer{
-	height: 200px;
-	background: #FDB5F0;
+	/*background: #FDB5F0;*/
+	margin-bottom: 30px;
+}
+.footer p{
+	text-align: center;
+	font-size: .8em;
+	margin: 5px 0;
+}
+.footer_nav{
+	border-top:1px solid #4A4A4A;
+	padding: 10px 0 20px;
 }
 
 .l-col-1{
@@ -76,9 +112,9 @@ h1, h2, h3, p{
 
 /*****************************/
 .loadmore{
-	padding:50px 0;
+	padding:60px 0;
 	text-align:center;
 	font-size:1.8em;
-	background: #E9E8E2;
+	/*background: #E9E8E2;*/
 }
 /*****************************/
