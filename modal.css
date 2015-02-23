@@ -5,6 +5,10 @@
 	margin-bottom: 20px;
 }
 
+.emty, .expert, .map, .facebook, .news, .emty_prev__li img{
+	box-shadow: 0 0 5px 0 #ccc;
+}
+
 .emty img{
 	max-width:100%;
 	height:auto;
@@ -171,6 +175,10 @@ i{
 .emty_prev__li:first-child{
 	background: #FFFFFF;
 	box-shadow: 0 3px 5px 0 #D8D8D8;
+}
+
+.emty_prev__li img:first-child{
+	box-shadow:none;
 }
 .emty_prev__li img{
 	max-width:100%;
