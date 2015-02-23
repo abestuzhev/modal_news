@@ -14,6 +14,10 @@ ul{
 	padding: 0;
 	list-style: none;
 }
+h1, h2, h3, p{
+	margin: 0;
+	padding: 0;
+}
 .header{
 	height:60px;
 	background: #ACF192;
@@ -35,8 +39,7 @@ ul{
 /*************************/
 
 .l{
-	background: #D7D7FF;
-	/*height: 1000px;*/
+	background: #E9E8E2;
 }
 .footer{
 	height: 200px;
@@ -45,32 +48,37 @@ ul{
 
 .l-col-1{
 	float: left;
-	width:70%;
-	background: #FBFBB3;
+	width:65.6666%;
+	/*background: #FBFBB3;*/
 	height: 100%;
-	padding: 10px;
+	/*padding: 10px;*/
 }
 
 .l-col-2{
 	float:right;
-	width:29%;
-	background: #C2E2EB;
-	padding: 10px;	
+	width:32.3333%;
+	/*background: #C2E2EB;*/
+	/*padding: 10px;	*/
 }
 .l-col-11{
 	float:left;
 	width:49%;
-	background: #D0C6C1;
-	padding: 10px;
+	/*background: #D0C6C1;*/
+	/*padding: 10px;*/
 }
 
 .l-col-12{
 	float:right;
-	width:50%;
-	background: #9B583C;
-	padding: 10px;
+	width:49%;
+	/*background: #9B583C;*/
+	/*padding: 10px;*/
 }
 
 /*****************************/
-
+.loadmore{
+	padding:50px 0;
+	text-align:center;
+	font-size:1.8em;
+	background: #E9E8E2;
+}
 /*****************************/
