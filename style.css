@@ -20,6 +20,9 @@ h1, h2, h3, p{
 	padding: 0;
 }
 
+a{
+	color:#4E56F8;
+}
 
 .l-center{
 	width:940px;
@@ -69,10 +72,32 @@ h1, h2, h3, p{
 .header__input:-ms-input-placeholder      {color:#b4d6e8;}
 
 .header__social{
-	width:100px;
-	height: 50px;
-	background: #000;
+	/*width:100px;*/
+	background: #C9C9C9;
 	float: right;
+	margin-top: 10px;
+}
+.header__social li{
+	display: inline-block;
+	margin-left: 10px;
+}
+.header__social__link{
+	display: block;
+	width:30px;
+	height: 30px;
+	background: #8AF145 url(img/icons-s8c356d3a85.png) no-repeat;
+}
+.vk{
+	background-position: 5px -402px;
+}
+.fb{
+	background-position: 10px -531px;
+}
+.ok{
+	background-position: 7px -214px;
+}
+.in{
+	background-position: 6px -502px;
 }
 /*************************/
 .nav{
