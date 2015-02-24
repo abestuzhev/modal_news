@@ -29,7 +29,7 @@ a{
 	/*background: #E0E0E0;*/
 	margin:0 auto;
 	/*border: 3px solid #FD9B9B;*/
-	height: 100%;
+	/*height: 100%;*/
 }
 /**/
 .header::after, .top_line::after, .header__wrap::after, .l::after, .l-col-1::after, .footer::after{
@@ -40,7 +40,7 @@ a{
 /*************************/
 .top_line{
 	background: #114b68;
-	height: 40px;
+	/*height: 40px;*/
 }
 .top__line__left, .top__line__right{
 	width: 50%;
@@ -200,3 +200,37 @@ a{
 	/*background: #E9E8E2;*/
 }
 /*****************************/
+@media screen and (max-width:980px){
+	.l-center{
+		width:99%;
+	}
+	img{
+		max-width:100%;
+		height: auto;
+	}
+	.l-col-1{
+		width:100%;
+		float:none;
+		margin-bottom: 20px
+	}
+	.map__img img{
+		margin:0px 50%;
+		position: relative;
+		left:-295px;
+	}
+
+	.l-col-2{
+		width:100%;
+		/*position: relative;
+		left:-2%;*/
+	}
+
+	.l-col-2>div{
+		width:49%;
+		float:left;
+		margin-right: 1%;
+	}
+	/*.l-col-2>div:nth-child(2n){
+		margin-right: 0;
+	}*/
+}
