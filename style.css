@@ -32,7 +32,7 @@ a{
 	height: 100%;
 }
 /**/
-.header::after, .header__wrap::after, .l::after, .l-col-1::after, .footer::after{
+.header::after, .top_line::after, .header__wrap::after, .l::after, .l-col-1::after, .footer::after{
 	content:'';
 	display: table;
 	clear: both;
@@ -41,6 +41,27 @@ a{
 .top_line{
 	background: #114b68;
 	height: 40px;
+}
+.top__line__left, .top__line__right{
+	width: 50%;
+	height: 100%;
+	padding: 10px;
+}
+.top__line__left{
+	float: left;
+	
+	background: #DF79E8;
+}
+.top__line__right{
+	float: right;
+	background: #78E9B6;
+}
+..top__line__right a{
+	text-align: right;
+}
+.right{
+	position: relative;
+	left:10px;
 }
 
 .header{
@@ -54,7 +75,7 @@ a{
 .header__wrap{
 	float:right;
 	padding: 40px 0;
-	background: #C5CAFC;
+	/*background: #C5CAFC;*/
 }
 .header__input{
 	/*vertical-align: middle;*/
@@ -73,19 +94,19 @@ a{
 
 .header__social{
 	/*width:100px;*/
-	background: #C9C9C9;
+	/*background: #C9C9C9;*/
 	float: right;
-	margin-top: 10px;
+	margin: 10px 0 0 20px;
 }
 .header__social li{
 	display: inline-block;
-	margin-left: 10px;
+	/*margin-left: 10px;*/
 }
 .header__social__link{
 	display: block;
 	width:30px;
 	height: 30px;
-	background: #8AF145 url(img/icons-s8c356d3a85.png) no-repeat;
+	background: url(img/icons-s8c356d3a85.png) no-repeat;
 }
 .vk{
 	background-position: 5px -402px;
