@@ -138,6 +138,7 @@ a{
 	padding: 5px 10px 3px;
 	text-transform: uppercase;
 	color:#4A4A4A;
+	line-height:1.3em;
 }
 .nav__menu a:hover{
 	box-shadow: 0 4px 0px 0px #747474;
@@ -204,6 +205,7 @@ a{
 	.l-center{
 		width:99%;
 	}
+
 	img{
 		max-width:100%;
 		height: auto;
@@ -213,10 +215,9 @@ a{
 		float:none;
 		margin-bottom: 20px
 	}
-	.map__img img{
-		margin:0px 50%;
-		position: relative;
-		left:-295px;
+	.map__img {
+		text-align: center;
+		width:100%;
 	}
 
 	.l-col-2{
@@ -224,13 +225,42 @@ a{
 		/*position: relative;
 		left:-2%;*/
 	}
-
-	.l-col-2>div{
-		width:49%;
+	.l-col-21{
 		float:left;
-		margin-right: 1%;
+		width:49%;
 	}
-	/*.l-col-2>div:nth-child(2n){
-		margin-right: 0;
-	}*/
+
+	.l-col-22{
+		float:right;
+		width:49%;
+	}
+}
+@media screen and (max-width:880px){
+	.header{
+		padding: 40px 0;
+	}
+	.header__logo{
+		width: 100%;
+		display: block;
+		padding: 0;
+		padding-bottom: 20px;
+		text-align: center;
+	}
+	.header__wrap{
+		position: relative;
+		left:-50%;
+		padding: 0;
+		/*padding-bottom: 20px;*/
+	}
+	.header__wrap__box{
+		position: relative;
+		left:50%;
+	}
+}
+@media screen and (max-width:660px){
+	.l-col-11, .l-col-12, .l-col-21, .l-col-22{
+		float: none;
+		width:100%;
+		margin-bottom: 20px;
+	}
 }
