@@ -264,3 +264,13 @@ a{
 		margin-bottom: 20px;
 	}
 }
+
+@media screen and (max-width:550px){
+	.header__input{
+		display: block;
+	}
+	.header__social{
+		float: none;
+		margin: 10px 27%;
+	}
+}
