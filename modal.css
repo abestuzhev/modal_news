@@ -32,23 +32,46 @@
 	vertical-align: middle;
 
 }
+.emty__h2, .emty__local{
+	color:#AB2C1B;
+}
 
 .emty__local{
 	font-size:.8em;
 }
+
 i{
 	display: inline-block;
-	width:10px;
-	height: 10px;
+	width:18px;
+	height: 20px;
 	position: relative;
+	top:5px;
 	margin-right: 5px;
-	background: #40A901;
+	background: url(img/icons-s8c356d3a85.png) no-repeat;
+}
+
+.emty__local i{
+	background-position: 4px -281px;
+}
+
+.emty__comment i{
+	background-position: 1px -431px;
+}
+
+.emty__date i{
+	background-position: 1px -384px;
 }
 
 .emty__comment, .emty__date{
 	vertical-align: middle;
 	text-decoration: none;
 	font-size:.9em;
+}
+.green .emty__h2, .green .emty__local{
+	color:#7AB738;
+}
+.green .emty__local i{
+	background-position: 4px -332px;
 }
 .emty_big .emty__h3{
 	font-size: 1.7em;
@@ -117,7 +140,7 @@ i{
 	font-size:1.1em;
 }
 .expert__content__p{
-	margin: 7px 0 7px;
+	margin: 4px 0px 0px;
 	text-transform: uppercase;
 	font-weight: bold;
 }
