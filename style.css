@@ -1,5 +1,9 @@
 @import url(modal.css);
+
 /************************/
+
+/*BASE*/
+/***********************************************************/
 *{
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -23,49 +27,56 @@ h1, h2, h3, p{
 a{
 	color:#4E56F8;
 }
-
-.l-center{
-	width:940px;
-	/*background: #E0E0E0;*/
-	margin:0 auto;
-	/*border: 3px solid #FD9B9B;*/
-	/*height: 100%;*/
-}
-/**/
 .header::after, .top_line::after, .header__wrap::after, .l::after, .l-col-1::after, .footer::after{
 	content:'';
 	display: table;
 	clear: both;
 }
+/*GRID*/
+/***********************************************************/
+.l-center{
+	width:940px;
+	margin:0 auto;
+}
 /*************************/
 .top_line{
 	background: #114b68;
-	/*height: 40px;*/
 }
-.top__line__left, .top__line__right{
-	width: 50%;
-	height: 100%;
-	padding: 10px;
-}
-.top__line__left{
-	float: left;
-	
-	background: #DF79E8;
-}
-.top__line__right{
-	float: right;
-	background: #78E9B6;
-}
-..top__line__right a{
-	text-align: right;
-}
-.right{
-	position: relative;
-	left:10px;
-}
+.top_line a{
+	color: #fff;
+	text-decoration: none;
 
+}
+.top_line__left, .top_line__center, .top_line__right{
+	float: left;
+	width:33.33333%;
+	height: 100%;
+	line-height:40px;
+}
+.top_line__center{
+	text-align: center;
+}
+/*************************/
+.top_line_addnews i{
+	background-position: 4px -252px;
+}
+.top_line__local i{
+	background-position: 4px -154px;
+}
+.top_line__tel{
+	float:right;
+}
+.top_line__tel i{
+	background-position: 4px -188px;
+}
+.i_big{
+	width: 24px;
+	height: 24px;
+	position: relative;
+	top:8px;
+}
+/*************************/
 .header{
-	/*height: 100px;*/
 	background: #468EB8;
 }
 .header__logo{
@@ -75,10 +86,8 @@ a{
 .header__wrap{
 	float:right;
 	padding: 40px 0;
-	/*background: #C5CAFC;*/
 }
 .header__input{
-	/*vertical-align: middle;*/
 	font-size:1.8em;
 	background: transparent;
 	border:1px solid #FFFFFF;
@@ -93,14 +102,11 @@ a{
 .header__input:-ms-input-placeholder      {color:#b4d6e8;}
 
 .header__social{
-	/*width:100px;*/
-	/*background: #C9C9C9;*/
 	float: right;
 	margin: 10px 0 0 20px;
 }
 .header__social li{
 	display: inline-block;
-	/*margin-left: 10px;*/
 }
 .header__social__link{
 	display: block;
@@ -147,12 +153,34 @@ a{
 	transition:all .5s;
 }
 /*************************/
-
-.l{
-	/*background: #E9E8E2;*/
+/*content*/
+.l-col-1{
+	float: left;
+	width:65.6666%;
+	height: 100%;
 }
+
+.l-col-2{
+	float:right;
+	width:32.3333%;
+}
+.l-col-11{
+	float:left;
+	width:49%;
+}
+
+.l-col-12{
+	float:right;
+	width:49%;
+}
+/*************************/
+.loadmore{
+	padding:60px 0;
+	text-align:center;
+	font-size:1.8em;
+}
+/*************************/
 .footer{
-	/*background: #FDB5F0;*/
 	margin-bottom: 30px;
 }
 .footer p{
@@ -164,113 +192,10 @@ a{
 	border-top:1px solid #4A4A4A;
 	padding: 10px 0 20px;
 }
+/*MODAL*/
+/***********************************************************/
+/*look modal.css*/
 
-.l-col-1{
-	float: left;
-	width:65.6666%;
-	/*background: #FBFBB3;*/
-	height: 100%;
-	/*padding: 10px;*/
-}
-
-.l-col-2{
-	float:right;
-	width:32.3333%;
-	/*background: #C2E2EB;*/
-	/*padding: 10px;	*/
-}
-.l-col-11{
-	float:left;
-	width:49%;
-	/*background: #D0C6C1;*/
-	/*padding: 10px;*/
-}
-
-.l-col-12{
-	float:right;
-	width:49%;
-	/*background: #9B583C;*/
-	/*padding: 10px;*/
-}
-
-/*****************************/
-.loadmore{
-	padding:60px 0;
-	text-align:center;
-	font-size:1.8em;
-	/*background: #E9E8E2;*/
-}
-/*****************************/
-@media screen and (max-width:980px){
-	.l-center{
-		width:99%;
-	}
-
-	img{
-		max-width:100%;
-		height: auto;
-	}
-	.l-col-1{
-		width:100%;
-		float:none;
-		margin-bottom: 20px
-	}
-	.map__img {
-		text-align: center;
-		width:100%;
-	}
-
-	.l-col-2{
-		width:100%;
-		/*position: relative;
-		left:-2%;*/
-	}
-	.l-col-21{
-		float:left;
-		width:49%;
-	}
-
-	.l-col-22{
-		float:right;
-		width:49%;
-	}
-}
-@media screen and (max-width:880px){
-	.header{
-		padding: 40px 0;
-	}
-	.header__logo{
-		width: 100%;
-		display: block;
-		padding: 0;
-		padding-bottom: 20px;
-		text-align: center;
-	}
-	.header__wrap{
-		position: relative;
-		left:-50%;
-		padding: 0;
-		/*padding-bottom: 20px;*/
-	}
-	.header__wrap__box{
-		position: relative;
-		left:50%;
-	}
-}
-@media screen and (max-width:660px){
-	.l-col-11, .l-col-12, .l-col-21, .l-col-22{
-		float: none;
-		width:100%;
-		margin-bottom: 20px;
-	}
-}
-
-@media screen and (max-width:550px){
-	.header__input{
-		display: block;
-	}
-	.header__social{
-		float: none;
-		margin: 10px 27%;
-	}
-}
+/*MEDIA*/
+/***********************************************************/
+/*look media.css*/

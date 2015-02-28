@@ -1,9 +1,79 @@
-@media screen and (max-width:939px){
+@media screen and (max-width:980px){
 	.l-center{
-		width:95%;
+		width:99%;
 	}
+
 	img{
 		max-width:100%;
 		height: auto;
+	}
+	.l-col-1{
+		width:100%;
+		float:none;
+		margin-bottom: 20px
+	}
+	.map__img {
+		text-align: center;
+		width:100%;
+	}
+
+	.l-col-2{
+		width:100%;
+	}
+	.l-col-21{
+		float:left;
+		width:49%;
+	}
+
+	.l-col-22{
+		float:right;
+		width:49%;
+	}
+}
+@media screen and (max-width:880px){
+	.header{
+		padding: 40px 0;
+	}
+	.header__logo{
+		width: 100%;
+		display: block;
+		padding: 0;
+		padding-bottom: 20px;
+		text-align: center;
+	}
+	.header__wrap{
+		position: relative;
+		left:-50%;
+		padding: 0;
+	}
+	.header__wrap__box{
+		position: relative;
+		left:50%;
+	}
+}
+@media screen and (max-width:660px){
+	.l-col-11, .l-col-12, .l-col-21, .l-col-22{
+		float: none;
+		width:100%;
+		margin-bottom: 20px;
+	}
+	.top_line__left, .top_line__center, .top_line__right{
+		width:100%;
+		display: block;
+		float:none;
+		text-align:center;
+	}
+	.top_line_addnews, .top_line__tel{
+		float: none;
+	}
+}
+@media screen and (max-width:550px){
+	.header__input{
+		display: block;
+		width:100%;
+	}
+	.header__social{
+		float: none;
+		margin: 10px 27%;
 	}
 }

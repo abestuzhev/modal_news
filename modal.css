@@ -1,14 +1,11 @@
+/*one post*/
+/*************************/
 .emty{
 	width:100%;
 	background: #FFFFFF;
 	overflow:hidden;
 	margin-bottom: 20px;
 }
-
-.emty, .expert, .map, .facebook, .news, .emty_prev__li img{
-	box-shadow: 0 0 5px 0 #ccc;
-}
-
 .emty img{
 	max-width:100%;
 	height:auto;
@@ -20,7 +17,6 @@
 	width:100%;
 	padding: 10px;
 }
-
 .emty__h2{
 	text-transform: uppercase;
 	display: inline-block;
@@ -35,10 +31,14 @@
 .emty__h2, .emty__local{
 	color:#AB2C1B;
 }
-
 .emty__local{
 	font-size:.8em;
 }
+/*************************/
+.emty, .expert, .map, .facebook, .news, .emty_prev__li img{
+	box-shadow: 0 0 5px 0 #ccc;
+}
+/*************************/
 
 i{
 	display: inline-block;
@@ -76,6 +76,7 @@ i{
 .emty_big .emty__h3{
 	font-size: 1.7em;
 }
+
 /***************************/
 .map{
 	padding: 10px;
